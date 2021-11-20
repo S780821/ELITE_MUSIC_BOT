@@ -26,7 +26,7 @@ BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False)) # If you ne
 THUMB_URL = os.environ.get("THUMB_URL",https://telegra.ph/file/8848147cd4fb6af2f094f.jpg "")
 XMARTY_QUE = os.environ.get("XMARTY_QUE", "https://telegra.ph/file/c16cbc1b51444436477c6.jpg")
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "XMARTY_UPDATES")
-ZAID_SUPPORT = os.environ.get("XMARTY_SUPPORT", "XMARTY_SUPPORT")
+XMARTY_SUPPORT = os.environ.get("XMARTY_SUPPORT", "XMARTY_SUPPORT")
 
 # SOON ADDING 
 ARQ_API_KEY = getenv("ARQ_API_KEY")
@@ -40,3 +40,5 @@ UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/S780821/ELIT
 U_BRANCH = "xmarty"
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
 
+X_version = "v2.0.2.1"
+xmartyub_version = "v2.0"
