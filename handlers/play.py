@@ -14,7 +14,7 @@ import wget
 
 from helpers.database import db, Database
 from helpers.dbthings import handle_user_status
-from config import DURATION_LIMIT, LOG_CHANNEL, BOT_USERNAME, THUMB_URL, ZAID_QUE
+from config import DURATION_LIMIT, LOG_CHANNEL, BOT_USERNAME, THUMB_URL, XMARTY_QUE
 from helpers.errors import DurationLimitError
 from helpers.filters import command, other_filters
 from helpers.decorators import errors
