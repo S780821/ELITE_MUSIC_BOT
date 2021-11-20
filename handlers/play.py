@@ -96,7 +96,7 @@ async def play(_, message: Message):
         file = await converter.convert(youtube.download(url))
 
     if message.chat.id in callsmusic.active_chats:
-        thumb = ZAID_QUE
+        thumb = XMARTY_QUE
         position = await queues.put(message.chat.id, file=file)
         MENTMEH = message.from_user.mention()
         await response.delete()
@@ -169,7 +169,7 @@ async def nplay(_, message: Message):
 
     file = await convert(youtube.download(url))
     if message.chat.id in callsmusic.active_chats:
-        thumb = ZAID_QUE
+        thumb = XMARTY_QUE
         position = await queues.put(message.chat.id, file=file)
         MENTMEH = message.from_user.mention()
         await lel.delete()
