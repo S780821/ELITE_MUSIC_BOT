@@ -1,0 +1,78 @@
+{
+    "name": "ELITE_MUSIC_BOT",
+    "logo": "https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
+    "description": "ELITE BOT music allow you to stream music trought the telegram voice chat feature.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/S780821/ELITE_MUSIC_BOT",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token from @BotFather",
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "fill there channel/group id make sure start with -100",
+            "required": true,
+            "value": ""
+        },
+        "BOT_OWNER": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": "BOT_OWNER ID"
+        },
+        "BOT_USERNAME": {
+            "description": "fill with your bot username without @",
+            "required": true,
+            "value": "ELITE_MUSIC_BOT"
+        },
+        "ASSISTANT_NAME": {
+            "description": "fill with the assistant username without @",
+            "required": true,
+            "value": "ELITE_ASSISTANT"
+        },
+        "OWNER_NAME": {
+            "description": "fill with your username without @",
+            "required": false,
+            "value": "Xmartperson"
+        },
+        "API_ID": {
+            "description": "your Api ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "fill with the user id who can access all function in your bot (separate with space).",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "max duration for music to download (in minutes).",
+            "required": true,
+            "value": "60"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "if you have channel fill the channel username here without @",
+            "required": false,
+            "value": "Xmarty_updates"
+        },
+        "DATABASE_URL": {
+            "description": "mongo db url leave if u don't have",
+            "required": false,
+            "value": ""
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
