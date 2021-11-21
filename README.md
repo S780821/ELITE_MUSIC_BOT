@@ -1,4 +1,4 @@
-<h2 align="centre"> ᴇʟɪᴛᴇ ᴍᴜsɪᴄ ʙᴏᴛ</h2>
+<h2 align="centre">✨ᴇʟɪᴛᴇ ᴍᴜsɪᴄ ʙᴏᴛ✨</h2>
 
 ### ᴇʟɪᴛᴇ ᴍᴜsɪᴄ ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
@@ -20,7 +20,7 @@
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
-[CLICK HERE](https://t.me/Xmarty_Updates/7)
+[CLICK HERE](https://telegra.ph/ELITE-BOT-COMMANDs-11-21)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
