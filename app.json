@@ -15,14 +15,14 @@
             "required": true
         },
         "LOG_CHANNEL": {
-            "description": "Leave it blank 😁",
+            "description": "CREATE UR OWN PRIVATE GRP AND FILL ID 😁",
             "required": true,
-            "value": "-1001593588220"
+            "value": "-100"
         },
         "BOT_OWNER": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "BOT_OWNER ID"
+            "value": "ASSISTANT SUDO ID"
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
@@ -62,8 +62,8 @@
             "value": "Xmarty_updates"
         },
         "DATABASE_URL": {
-            "description": "mongo db url leave if u don't have",
-            "required": false,
+            "description": "https://www.mongodb.com/cloud/atlas/register",
+            "required": true,
             "value": ""
         }
     },
