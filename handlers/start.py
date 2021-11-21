@@ -88,7 +88,7 @@ async def start(client: Client, message: Message):
 
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-  await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
+ await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
  await message.reply_photo(
         photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
         caption=f"""""",
