@@ -33,7 +33,8 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_photo(
+ await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
+ await message.reply_photo(
         photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
         caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴍᴏɴɢᴏᴅʙ ᴡɪᴛʜ ᴀɪ ꜰᴇᴀᴛᴜʀᴇꜱ ...
 💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
@@ -48,7 +49,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/XMARTY_SUPPORT/1"
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/Xmarty_Updates/7"
                     ),
                     InlineKeyboardButton(
                         "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/s780821/ELITE_MUSIC_BOT"
@@ -70,7 +71,8 @@ async def start_(client: Client, message: Message):
     
 @Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
-    await message.reply_photo(
+ await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
+ await message.reply_photo(
         photo=f"https://telegra.ph/file/a45bd27a16f92285120c8.png",
         caption=f"""ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
@@ -86,7 +88,8 @@ async def start(client: Client, message: Message):
 
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_photo(
+  await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
+ await message.reply_photo(
         photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
