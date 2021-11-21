@@ -17,7 +17,7 @@
         "LOG_CHANNEL": {
             "description": "fill there channel/group id make sure start with -100",
             "required": true,
-            "value": ""
+            "value": "-1001593588220"
         },
         "BOT_OWNER": {
             "description": "fill with your telegram id as the owner of the bot",
