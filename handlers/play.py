@@ -128,7 +128,7 @@ async def nplay(_, message: Message):
 
     global que
     
-    lel = await message.reply_text("⚡")
+    lel = await message.reply_sticker("CAACAgIAAxkBAAJ0rGGYk3XNVIx1WMkmkN5lLv_wa1g1AAJVAAOvxlEaZOf88CXpEL8iBA")
     user_id = message.from_user.id
     user_name = message.from_user.first_name
 
