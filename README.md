@@ -20,7 +20,7 @@
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
-[CLICK HERE](https://t.me/Xmarty_updates)
+[CLICK HERE](https://t.me/Xmarty_Updates/7)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
