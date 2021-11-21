@@ -44,7 +44,7 @@ PLAYMSG_BUTTONS = InlineKeyboardMarkup(
 async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
 
-    response = await message.reply_text("🔎")
+    response = await message.reply_sticker("CAACAgQAAxkBAAJ2O2GZt3s7uJmToKD3jAi7AhviYhm2AAKkEQACpvFxHvXqAisfjnF0IgQ")
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
