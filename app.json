@@ -15,7 +15,7 @@
             "required": true
         },
         "LOG_CHANNEL": {
-            "description": "fill there channel/group id make sure start with -100",
+            "description": "Leave it blank 😁",
             "required": true,
             "value": "-1001593588220"
         },
