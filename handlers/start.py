@@ -33,35 +33,23 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
- await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
- await message.reply_photo(
-        photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
-        caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴍᴏɴɢᴏᴅʙ ᴡɪᴛʜ ᴀɪ ꜰᴇᴀᴛᴜʀᴇꜱ ...
-💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
-ᴜꜱɪɴɢ [xᴍᴀʀᴛʏ ᴜᴘᴅᴀᴛᴇs](t.me/Xmarty_updates) ...
-**""",
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
+𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝗥𝗬𝗠 𝗧𝗘𝗔𝗠](https://t.me/RYMOFFICIAL)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝗝𝗮𝗶🇮🇳𝗛𝗶𝗻𝗱](https://t.me/JaiHindChatting)
+┣★ 𝙎𝙤𝙪𝙧𝙘𝙚 : [𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲](https://t.me/JaiHindChatting)
+┗━━━━━━━━━━━━━━━━━┛
+
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/Xmarty_Updates/7"
-                    ),
-                    InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/s780821/ELITE_MUSIC_BOT"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Xmarty_updates"
-                    ),
-                    InlineKeyboardButton(
-                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/XMARTY_SUPPORT"
-                    )
+                        "😆 ❰ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥 ❱ 😆", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -69,34 +57,32 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "legend"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
- await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
- await message.reply_photo(
-        photo=f"https://telegra.ph/file/a45bd27a16f92285120c8.png",
-        caption=f"""ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ 🔥♥️""",
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+        caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/XMARTY_SUPPORT")
+                        "💥 𝙅𝙤𝙞𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 💞", url=f"https://t.me/jaihindchatting")
                 ]
             ]
         ),
     )
 
 
-@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
- await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
- await message.reply_photo(
-        photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/s780821/ELITE_MUSIC_BOT")
+                        "😆 𝘾𝙡𝙞𝙘𝙠 𝙃𝙚𝙧𝙚 𝙏𝙤 𝙂𝙚𝙩 𝙍𝙚𝙥𝙤 😆", url=f"https://t.me/jaihindchatting")
                 ]
             ]
         ),
